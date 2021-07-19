@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+	<title>Círculo cromático</title>
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+		* {
+			margin: 0;
+			padding: 0;
+			font-family: 'Patua One', cursive;
+			box-sizing: border-box;
+		}
+		body {
+			min-height: 100vh;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			background: #101010;
+		}
+		.page1 {
+			display: flex;
+			margin: 2rem;
+			width: 210mm;
+			height: 297mm;
+			background-color: #fff;
+		}
+		.dados {
+			display: flex;flex-direction: column;
+			align-items: center;
+			width: 35%;
+			height: 100%;
+			background: #AA2222;
+			box-shadow: 2px -1px 10px #000;
+			color: #fff;
+		}
+		.dados h1 {
+			padding: 3rem 1rem 2rem;
+			font-size: 200%;
+			text-align: center;
+		}
+		.dados .topicos {
+			width: 100%;
+			padding: 10px 20px;
+			font-size: 150%;
+			background-color: #FFF4;
+		}
+		.dados ul {
+			margin: 10px 0 20px;
+			padding: 0 32px;
+			width: 100%;
+		}
+		.dados li {
+			display: flex;
+			justify-content: flex-start;
+			align-items: center;
+		}
+		.dados i { margin-right: 5px; }
+		.informacoes {
+			display: flex;
+			flex-direction: column;
+			margin: 24px;
+			background-color: red;
+			width: 100%;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<section class="page1">
+			<div class="dados">
+				<h1>Hennan Lewis Ferreira</h1>
+				<span class="topicos"><i class="fas fa-address-card"></i>Contato</span>
+				<ul>
+					<li><i class="fab fa-whatsapp-square"></i>88 99204-3647</li>
+					<li><i class="fas fa-envelope"></i>hennan.lewis@gmail.com</li>
+					<li><i class="fab fa-github-alt"></i>github.com/hennanlewis</li>
+				</ul>
+				<span class="topicos"><i class="fas fa-language"></i>Idiomas</span>
+				<ul>
+					<li>Inglês: B1 (TOEFL-ITP)</li>
+					<li>Espanhol: iniciante</li>
+					<li>Japonês: iniciante</li>
+				</ul>
+			</div>
+			<div class="informacoes">
+
+			</div>
+		</section>
+	</div>
+</body>
+</html>
