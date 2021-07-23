@@ -77,8 +77,27 @@
 			display: flex;
 			flex-direction: column;
 			margin: 24px;
-			background-color: red;
-			width: 100%;
+			max-width: 100%;
+		}
+		.informacoes fieldset {
+			padding: 10px 20px 20px;
+			border: 3px solid #AA2222;
+			border-radius: 40px;
+			background-color: #AA222240;
+		}
+		.informacoes fieldset fieldset {
+			border: 3px solid #000;
+			background-color: #FFFFFFA0;
+			border-radius: 20px;
+		}
+		.informacoes legend {
+			margin-left: 20px;
+		}
+		.informacoes h1 { color: #AA2222; }
+		.informacoes h2 { font-size: 110%; }
+		.informacoes p {
+			text-indent: 1.5em;
+			font-weight: 100;
 		}
 	</style>
 </head>
@@ -100,22 +119,78 @@
 					<li>Japonês: iniciante</li>
 				</ul>
 			</div>
-			<div class="informacoes">
-				<h1>Hennan Lewis Ferreira</h1>
-				<span class="topicos"><i class="fas fa-address-card"></i>Contato</span>
-				<ul>
-					<li><i class="fab fa-whatsapp-square"></i>88 99204-3647</li>
-					<li><i class="fas fa-envelope"></i>hennan.lewis@gmail.com</li>
-					<li><i class="fab fa-github-alt"></i>github.com/hennanlewis</li>
-				</ul>
-				<span class="topicos"><i class="fas fa-language"></i>Idiomas</span>
-				<ul>
-					<li>Inglês: B1 (TOEFL-ITP)</li>
-					<li>Espanhol: iniciante</li>
-					<li>Japonês: iniciante</li>
-				</ul>
+			<div>
+				<div class="informacoes">
+					<fieldset>
+						<legend><h1>Experiência</h1></legend>
+						<fieldset>
+							<legend>
+								<h2>UFC Coworking (2021)</h2>
+							</legend>
+							<b>Desenvolvedor Front-end</b>
+							<p>
+								Criação de um protótipo funcional de uma aplicação web de agendamento de 
+								horários para uso do novo espaço de Coworking na UFC - Campus Sobral. 
+								Apesar de eu ter mais familiaridade e no início do projeto ter
+								sido construído com ReactJS, optamos pela utilização de Vue JS para a
+								criação do front-end. A aplicação utiliza requisições para a API desenvolvida
+								para o projeto.
+							</p>
+							Pode ser encontrado no GitHub: <a href="https://github.com/Lynx96/coworkingUFC">Coworking UFC</a>
+						</fieldset>
+						<br>
+						<fieldset>
+							<legend>
+								<h2>Site "Mangás Cangaceiros" (2021)</h2>
+							</legend>
+							<b>Desenvolvedor Backend e Frontend</b>
+							<p>
+								Atualmente desenvolvo um projeto para estudo de NextJS. O backend
+								basicamente é uma API construída por funções serverless com servidor
+								de banco de dados não relacional MongoDB Atlas, uso de Context API
+								para gerenciamento de tema light e dark, utiliza o sistema de
+								rotas nativo da biblioteca NextJS, páginas estáticas criadas de forma dinâmica
+								a partir das funções nativas getStaticPaths e getStaticProps com revalidação
+								configurada a cada minuto.
+							</p>
+							Link para site: <a href="https://www.cangaceiros.net/">Mangás Cangaceiros</a>
+						</fieldset>
+					</fieldset>
+				</div>
+
+				<div class="informacoes">
+					<fieldset>
+						<legend><h1>Educação</h1></legend>
+						<b>EEEP Monsenhor Expedito da Silveira de Sousa: </b>
+						<p>
+							Ensino médio em tempo integral simultâneo ao curso técnico em Redes de 
+							Computadores, um total de 1400 horas de disciplinas profissionais com 
+							400 horas de estágio.
+						</p>
+
+						<br>
+
+						<b>UFC – Universidade Federal do Ceará:</b>
+						<p>
+							Último período na graduação em Engenharia da Computação com ênfase na vertente
+							de Telecomunicação, conhecimentos em estrutura de dados, fundamentos de
+							Programação Linear e Grafos.
+						</p>
+
+						<br>
+
+						<b>Alura Cursos Online: </b>
+						<p>
+							Conclusão dos cursos React Parte 1: Componentes reutilizáveis para sua webapp;
+							JavaScript: Aprofundando em MVC, padrão Proxy e Factory;  JavaScript:
+							Conhecendo o Browser e padrões de projeto; HTTP: entendendo a WEB por baixo
+							dos panos.
+						</p>
+
+					</fieldset>
+				</div>
 			</div>
-		</section>
-	</div>
-</body>
-</html>
+			</section>
+		</div>
+	</body>
+	</html>
