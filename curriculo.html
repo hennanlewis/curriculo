@@ -25,15 +25,23 @@
 			background: #101010;
 			overflow-x: hidden;
 		}
+		@media (max-width: 800px) {
+			.page1 {
+				display: flex;
+				width: 210mm;
+				height: 297mm;
+				background-color: #fff;
+			}
+		}
 		.page1 {
 			display: flex;
-			margin: 2rem;
 			width: 210mm;
 			height: 297mm;
 			background-color: #fff;
 		}
 		.dados {
-			display: flex;flex-direction: column;
+			display: flex;
+			flex-direction: column;
 			align-items: center;
 			width: 35%;
 			height: 100%;
