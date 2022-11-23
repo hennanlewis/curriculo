@@ -12,7 +12,7 @@
 		/>
 		<link href="./dist/output.css" rel="stylesheet" />
 		<style>
-			* {
+			h1 {
 				font-family: "Bitter", serif;
 			}
 		</style>
@@ -29,19 +29,25 @@
 			<div class="flex justify-around">
 				<section class="flex flex-col">
 					<span class="font-extrabold self-center"> Contato </span>
-					<ul class="flex flex-col">
-						<li class="flex items-baseline gap-1">
-							<i class="fab fa-github-alt"></i>
+					<ul class="flex flex-col text-white">
+						<li class="flex items-center gap-1">
+							<span class="translate-y-[2px]">
+								<img src="/src/fa-github-alt.svg" width="15" />
+							</span>
 							<a href="https://github.com/hennanlewis" target="_blank"
 								>github.com/hennanlewis</a
 							>
 						</li>
-						<li class="flex items-baseline gap-1">
-							<i class="fas fa-envelope"></i>
+						<li class="flex items-center gap-1">
+							<span class="translate-y-[2px]">
+								<img src="/src/fa-envelope.svg" width="15" />
+							</span>
 							<a href="mailto:hennan.lewis@gmail.com">hennan.lewis@gmail.com</a>
 						</li>
-						<li class="flex items-baseline gap-1">
-							<i class="fab fa-whatsapp-square"></i>
+						<li class="flex items-center gap-1">
+							<span class="translate-y-[2px]">
+								<img src="/src/fa-whatsapp.svg" width="15" />
+							</span>
 							<a href="tel:88999731877">(88) 99973-1877</a>
 						</li>
 					</ul>
@@ -69,14 +75,17 @@
 						<div class="flex flex-col gap-4 my-2">
 							<div>
 								<h2 class="font-bold text-lg text-emerald-800">
-									Site "Mangás Cangaceiros" (06/2021): em desenvolvimento
+									Site "Mangás Cangaceiros": em desenvolvimento
 								</h2>
 								<strong>Desenvolvedor Backend e Frontend</strong>
 								<p>
-									Projeto utilizado para estudar os conceitos de Static Site
-									Generation (SSG) a partir de dados vindos da própria APIs,
+									Projeto utilizado para estudo dos conceitos de Static Site
+									Generation (SSG) a partir de dados vindos da própria API,
 									Server Side Rendering (SSR) e otimização para motores de busca
-									(SEO) de páginas estáticas.
+									(SEO) de páginas estáticas. Deploy do site agregador de mangás
+									feito em Next.js leitura online. A aplicação gerencia conexão
+									ao serviço gratuito de banco de dados do MongoDB com mais de
+									7000 capítulos disponíveis atualmente.
 								</p>
 								<div>
 									Link para site:
@@ -101,11 +110,11 @@
 							<div>
 								<h2 class="font-bold text-lg text-emerald-800">Campo Minado</h2>
 								<p>
-									Desenvolvido em React.js com TypeScript que seu objetivo é
-									aplicar conceitos de lógica para recriar o jogo campo minado.
-									O Objetivo do jogo é clicar nas casas ocultas para revelá-las
-									sem explodir as bombas. São 3 dificuldades e quanto maior a
-									dificuldade, mais bombas possuem ocultas.
+									Desenvolvido em React.js com TypeScript com objetivo de
+									aplicar conceitos de lógica para recriar o jogo "campo
+									minado". O Objetivo do jogo é clicar nas casas ocultas para
+									revelá-las sem explodir as bombas. São 3 níveis e quanto maior
+									a dificuldade, mais bombas possuem ocultas.
 								</p>
 								<div>
 									Encontrado em:
@@ -142,8 +151,8 @@
 									a maioria de projetos semelhantes, mas com o diferencial de
 									incluir uma calculadora de taxa de captura e um minigame de
 									quiz. Como o objetivo também era o estudo de testes, possui
-									alguns teste unitários, porém, ainda não tem cobertura em 100%
-									do código.
+									alguns teste unitários, porém, sem cobertura em 100% do
+									código.
 								</p>
 								<div>
 									Encontrado em:
