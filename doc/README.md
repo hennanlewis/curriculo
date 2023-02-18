@@ -1,2 +1,0 @@
-# Screenshots
-![teste](Screenshot.jpg)
