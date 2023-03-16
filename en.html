@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Bitter:wght@300;400;500;600;700&display=swap"
+			rel="stylesheet" />
+		<link href="./dist/output.css" rel="stylesheet" />
+		<style>
+			* {
+				font-family: "Bitter", serif;
+			}
+		</style>
+		<title>Curriculo</title>
+	</head>
+
+	<body
+		class="w-[210mm] h-[295mm] bg-white overflow-hiddenflex justify-center items-center min-h-screen mx-auto font-normal text-sm">
+		<section
+			class="flex flex-col gap-4 p-[1.5rem] pb-[1rem] bg-emerald-700 border-emerald-800 border-b-8 text-white">
+			<h1 class="font-bold text-center text-3xl">
+				Hennan Lewis Ferreira
+			</h1>
+			<div class="flex justify-around">
+				<section class="flex flex-col">
+					<span class="font-extrabold self-center">Contact</span>
+					<ul class="flex flex-col text-white">
+						<li class="flex items-center gap-1">
+							<img src="src/fa-globe-solid.svg" width="15" />
+							<a
+								href="https://hennanlewis.com"
+								target="_blank"
+								>hennanlewis.com</a
+							>
+						</li>
+						<li class="flex items-center gap-1">
+							<img src="src/fa-github-alt.svg" width="15" />
+							<a
+								href="https://github.com/hennanlewis"
+								target="_blank"
+								>github.com/hennanlewis</a
+							>
+						</li>
+						<li class="flex items-center gap-1">
+							<img src="src/fa-envelope.svg" width="15" />
+							<a href="mailto:hennan.lewis@gmail.com"
+								>hennan.lewis@gmail.com</a
+							>
+						</li>
+					</ul>
+				</section>
+				<section class="flex flex-col">
+					<span class="font-extrabold self-center">Languages</span>
+					<ul class="flex flex-col">
+						<li>English: B1 (TOEFL-ITP)</li>
+						<li>Spanish: Beginner</li>
+						<li>Japanese: Beginner</li>
+					</ul>
+				</section>
+			</div>
+		</section>
+
+		<section class="flex flex-col bg-white text-white">
+			<main class="text-black px-10 py-6">
+				<div class="">
+					<section class="flex flex-col">
+						<div
+							class="flex flex-wrap justify-center items-center text-center text-lg font-bold bg-emerald-700 text-white px-2 py-2 rounded-md">
+							<h1>Main projects/Experience</h1>
+						</div>
+						<div class="flex flex-col gap-4 my-2">
+							<div>
+								<h2 class="font-bold text-lg text-emerald-800">
+									"Mangás Cangaceiros" Website: in development
+								</h2>
+								<strong>Backend and Frontend Developer</strong>
+								<p>
+									Project used for studying the concepts of
+									Static Site Generation (SSG) from data
+									coming from the API itself, Server Side
+									Rendering (SSR) and optimization for search
+									engines (SEO) of static pages. Deployment of
+									the manga aggregator site made in Next.js
+									online reading. The application manages
+									connection to the free MongoDB database
+									service with more than 7000 chapters
+									currently available.
+								</p>
+								<div>
+									Founded at:
+									<a
+										class="font-bold text-emerald-800"
+										href="https://www.cangaceiros.net/"
+										target="_blank"
+										>Mangás Cangaceiros</a
+									>
+								</div>
+								<span class="flex gap-1">
+									<strong>Technologies used:</strong>
+									<ul class="flex gap-2">
+										<li>Tailwind CSS,</li>
+										<li>TypeScript,</li>
+										<li>Next.js,</li>
+										<li>MongoDB</li>
+									</ul>
+								</span>
+							</div>
+
+							<div>
+								<h2 class="font-bold text-lg text-emerald-800">
+									Minesweeper
+								</h2>
+								<p>
+									Developed in React.js with TypeScript aiming
+									to apply logic concepts to recreate the
+									"Minesweeper" game. The objective of the
+									game is to click on the hidden squares to
+									reveal them without detonating the bombs.
+									There are 3 levels and the higher the
+									difficulty, the more hidden bombs there are.
+								</p>
+								<div>
+									Found at:
+									<a
+										class="font-bold text-emerald-800"
+										href="https://github.com/hennanlewis/campo-minado"
+										target="_blank"
+										>GitHub Repository</a
+									>
+									and
+									<a
+										class="font-bold text-emerald-800"
+										href="https://hennanlewis.github.io/campo-minado/"
+										target="_blank"
+										>Project Deployment</a
+									>.
+								</div>
+								<div class="flex gap-1">
+									<strong>Technologies used:</strong>
+									<ul class="flex gap-2">
+										<li>Tailwind CSS,</li>
+										<li>TypeScript,</li>
+										<li>React.js</li>
+									</ul>
+								</div>
+							</div>
+
+							<div>
+								<h2 class="font-bold text-lg text-emerald-800">
+									Pokedex
+								</h2>
+								<p>
+									This is a project aimed at applying logic
+									knowledge and unit testing principles. It
+									uses an external API to create a Pokedex.
+									Initially, it has the same functions as most
+									similar projects, but with the difference of
+									including a capture rate calculator and a
+									quiz mini-game. As the objective was also
+									the study of testing, it has some unit
+									tests, however, without 100% code coverage.
+								</p>
+								<div>
+									Founded at:
+									<a
+										class="font-bold text-emerald-800"
+										href="https://github.com/hennanlewis/ultimate-pokedex"
+										target="_blank"
+										>GitHub Repository</a
+									>
+									and
+									<a
+										class="font-bold text-emerald-800"
+										href="https://hennanlewis.github.io/ultimate-pokedex/"
+										target="_blank"
+										>Project Deployment</a
+									>.
+								</div>
+								<div class="flex gap-1">
+									<strong>Technologies used:</strong>
+									<ul class="flex gap-2">
+										<li>Tailwind CSS,</li>
+										<li>TypeScript,</li>
+										<li>React.js,</li>
+										<li>React Testing Library</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<section class="flex flex-col mb-2">
+						<div
+							class="flex flex-wrap justify-center items-center text-center text-lg font-bold bg-emerald-700 text-white px-2 py-2 rounded-md">
+							<h1>Education</h1>
+						</div>
+						<div class="my-2">
+							<h3 class="font-bold text-emerald-800">
+								EEEP Monsenhor Expedito da Silveira de Sousa:
+							</h3>
+							<p>
+								Full-time high school education simultaneously
+								with a technical course in Computer Networks.
+							</p>
+
+							<br />
+
+							<h3 class="font-bold text-emerald-800">
+								UFC - Federal University of Ceará:
+							</h3>
+							<p>
+								Bachelor of
+								<strong>Computer Engineering</strong> with a
+								focus on disciplines in the fields of
+								<strong>Telecommunications </strong> and
+								<strong>Computer Science</strong>.
+							</p>
+						</div>
+					</section>
+
+					<section class="flex flex-col">
+						<div
+							class="flex flex-wrap justify-center items-center text-center text-lg font-bold bg-emerald-700 text-white px-2 py-2 mb-2 rounded-md">
+							<h1>More proficient languages and technologies</h1>
+						</div>
+						<div class="flex flex-col">
+							<span>
+								<strong class="text-emerald-800 uppercase"
+									>Front-end:</strong
+								>
+								HTML, CSS, Tailwind CSS, JavaScript, TypeScript,
+								React.js, Next.js, Styled Components
+							</span>
+
+							<span class="list-disc list-inside">
+								<strong class="text-emerald-800 uppercase"
+									>Back-end:</strong
+								>
+								Node.js, Express.js
+							</span>
+
+							<span class="list-disc list-inside">
+								<strong class="text-emerald-800 uppercase">
+									Banco de dados:
+								</strong>
+								MongoDB, MySQL, PostgreSQL
+							</span>
+
+							<span class="list-disc list-inside">
+								<strong class="text-emerald-800 uppercase">
+									Versionamento:
+								</strong>
+								Git, GitHub
+							</span>
+						</div>
+					</section>
+				</div>
+			</main>
+		</section>
+	</body>
+</html>
